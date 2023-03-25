@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="Temperature_Converter.css">
+</head>
+<body>
+	<div class="container">
+		<div class="container1">
+			<h2>Temperature Converter</h2>
+		</div>
+		<div class="container2">
+			<div class="section">
+				<label><strong>Degrees</strong></label><br><br>
+				<input type="number" class="takval" required><br><br>
+			</div>
+			<div class="section">
+				<label><strong>Type</strong></label><br><br>
+				<select name="" id="unit">
+					<option value="Fahrenheit"><strong>Fahrenheit</strong></option>
+					<option value="Celsius"><strong>Celcius</strong></option>
+				</select><br><br></div>
+		</div>
+		<div class="container4">
+			<label><strong>Result</strong></label><br><br>
+			<div class="value">
+		</div>
+		<br><br>
+	</div>
+		<button onclick="temprature()" class="button"><strong>Convert</strong></button>
+	</div>
+
+</body>
+<script src="Temperature_Converter.js"></script>
+</html>
